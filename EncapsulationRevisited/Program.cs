@@ -38,7 +38,11 @@ namespace LearningCollections
                 Console.Write("Student Phone...");
                 //phone number is set and kept private through 'private' access
                 //specifier and public void method 'SetPhone'
-                newStudent.SetPhone(int.Parse(Console.ReadLine()));
+
+                //newStudent.SetPhone(int.Parse(Console.ReadLine()));
+                //using Phone setter
+                newStudent.Phone = (int.Parse(Console.ReadLine()));
+
 
                 //add a newStudent to the List <Student> collection
                 students.Add(newStudent);
