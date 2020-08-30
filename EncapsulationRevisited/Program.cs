@@ -88,6 +88,8 @@ namespace LearningCollections
         //setter can be used to declare value of phone
         public int Phone
         {
+            //use a standard '=' to assign the phone number
+            //like we would for a variable
             set { phone = value; Console.WriteLine(phone); }
         }
 
