@@ -79,6 +79,11 @@ namespace LearningCollections
         {
             phone = number;
         }
+        //C# property
+        public int Phone
+        {
+            set { phone = value; }
+        }
 
     }
 }
