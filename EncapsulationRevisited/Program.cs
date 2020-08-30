@@ -84,9 +84,11 @@ namespace LearningCollections
             phone = number;
         }
         //C# property
+        //instead of passing paramter through method
+        //setter can be used to declare value of phone
         public int Phone
         {
-            set { phone = value; }
+            set { phone = value; Console.WriteLine(phone); }
         }
 
     }
